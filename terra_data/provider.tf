@@ -7,12 +7,6 @@ terraform {
     }
 }
 
-provider "databricks" {
-    azure_workspace_resource_id = azurerm_databricks_workspace.workspace.id
-    azure_client_id = ""
-    azure_client_secret = ""
-    azure_tenant_id = ""
-} 
 
 provider "azurerm" {
     features {}
