@@ -14,7 +14,6 @@ terraform {
 
 ##Azure required_provider
 provider "azurerm" {
-    skip_provider_registration = "true"
     features {}
 }
 
